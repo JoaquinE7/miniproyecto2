@@ -58,20 +58,10 @@ export class MovieDatService {
     })
 
   }
-  /*
+
   async getMovie():Promise<any>{
     return new Promise(resolve=>{
       this.http.get(this.urlMovie+this.idMov, this.httpOptionsM).subscribe(data=>{
-
-
-        resolve(data);
-      })
-    })
-  }*/
-
-  async getMovie(id:any):Promise<any>{
-    return new Promise(resolve=>{
-      this.http.get(this.urlMovie+id, this.httpOptionsM).subscribe(data=>{
 
 
         resolve(data);
@@ -82,9 +72,6 @@ export class MovieDatService {
 
   setIdMovie(id:any):void{
     this.idMov=id;
-  }
-  getIdMovie():number{
-    return this.idMov;
   }
 
   setInterface(dat:movies[]): void{

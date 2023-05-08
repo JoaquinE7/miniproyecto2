@@ -14,15 +14,5 @@ export class SaharedDatService {
   getMovies():movies[]{
     return this.movies;
   }
-  getMoviebyId(id:number):any{
-    for (const i in this.movies) {
-      if (this.movies[i].id==id) {
-          return this.movies[i];
-          break;
-        
-      }
-    }
-
-  }
 
 }

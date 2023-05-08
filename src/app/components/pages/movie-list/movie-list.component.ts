@@ -2,6 +2,8 @@ import { Component } from '@angular/core';
 import { movies } from 'src/app/shared/interfaces/movieInterface';
 import { MovieDatService } from 'src/app/shared/services/movie-dat.service';
 
+
+
 @Component({
   selector: 'app-movie-list',
   templateUrl: './movie-list.component.html',

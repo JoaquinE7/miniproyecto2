@@ -7,15 +7,3 @@ export interface movies{
     gender:number[];
     layla:boolean;
 }
-
-export interface reser{
-    peli: string
-    diaD: number
-    mesD: number
-    anioD: number
-    diaR: number
-    mesR: number
-    anioR: number
-    poster: string
-    pop: number
-}
