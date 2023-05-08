@@ -1,40 +1,13 @@
-/*@import "~alertifyjs/build/css/alertify.min.css";
-@import "~alertifyjs/build/css/themes/bootstrap.rtl.min.css";
-*/
-*{
-    font-family: 'Bruno Ace SC', cursive;
-}
 .felipe{
-    height: 100%;
-    width: 100%;
-    margin: 0;
-    padding: 0;
     display: grid;
-    font-family: 'Bruno Ace SC', cursive;
     row-gap: 5%;
     column-gap: 5%;
-    background-color:black;
-    color: white;
-    grid-template-areas: "title title img" 
-                         "generos generos img" 
-                         "resumen resumen img"
-                         "directores directores img"
-                         "dispo dispo img"
-                         "cal bot img ";
+    background-color: lightgrey;
+    grid-template-areas: "img title title" 
+                         "img generos generos" 
+                         "img resumen resumen"
+                         "img directores directores";
                         
-}
-.dispo{
-    grid-area: dispo;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-}
-.cal{
-    grid-area: cal;
-}
-.bot{
-    grid-area: bot;
 }
 .alexander{
     
@@ -56,8 +29,8 @@
 }
 .directores{
     grid-area: directores;
-    background-color: white;
-    color: black;
+    background-color: black;
+    color: azure;
     display: flex;
     align-items: center;
     justify-content:space-around;

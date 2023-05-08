@@ -9,7 +9,7 @@ import { MovieDatService } from 'src/app/shared/services/movie-dat.service';
 export class MovieCardComponent {
   @Input() nombre:string="";
   @Input() img:string="";
-  @Input() resumen:string="";
+  @Input() resumen:string=""; 
   @Input() id:number=0;
 
 
