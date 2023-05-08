@@ -1,0 +1,11 @@
+<input type="date" name="" #fechas id="" [(ngModel)]="fecha" (change) = "cambio()">
+<input type="range" min="9" max="20" step="1" [(ngModel)] = "hora" (change) = "cambio()">
+<p>{{fecha}} <br> Año: {{anio}} <br> Mes: {{mes}} <br> Dia: {{dia}} <br> Hora: {{hora}} <br> Peli: {{peli}}</p>
+<select name="" id="" [(ngModel)] = "peli">
+    <option value="RE">RE</option>
+    <option value="SAO">SAO</option>
+</select>
+<p>Mi pito con una flor</p>
+<input type="button" value="si" [disabled]="habil" (click)="reserva()">
+
+<p>{{respuesta}} {{hora}}</p>
