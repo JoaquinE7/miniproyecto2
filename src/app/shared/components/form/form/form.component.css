@@ -1,0 +1,4 @@
+.padre-pobre{
+    display: flex;
+    flex-direction: column;
+}
