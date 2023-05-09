@@ -1,37 +1,36 @@
-<div fxLayout="column" fxLayoutAlign="center center" class="form-container">
-  <form fxLayout="column" fxLayoutAlign="start center" (ngSubmit)="onSubmit()" class="a" >
-    <mat-form-field appearance="fill" fxFlex>
-      <mat-label>Nombre</mat-label>
-      <input matInput formControlName="firstName" required style="background-color: #CFC4CC;">
+<div class="form-container">
+  <form class="a">
+    <mat-form-field appearance="outline" style="width: 300px">
+      <mat-label>Nombre:</mat-label>
+      <input matInput />
+      <mat-hint>Pista: Ethienne Lopez</mat-hint>
     </mat-form-field>
+    <br />
 
-    <mat-form-field appearance="fill" fxFlex>
-      <mat-label>Apellidos</mat-label>
-      <input matInput formControlName="lastName" required>
+    <mat-form-field appearance="outline" style="width: 300px">
+      <mat-label>E-Mail:</mat-label>
+      <input matInput />
+      <mat-hint>Pista: xxx@yyy.zzz</mat-hint>
+    </mat-form-field>
+    <br />
+    <br />
+    <p>Elija la que mas se acerque a su comentario</p>
+    <mat-radio-group aria-label="Select an option">
+      <mat-radio-button value="1">Queja</mat-radio-button>
+      <mat-radio-button value="2">Sugerencia</mat-radio-button>
+      <mat-radio-button value="3">Mensaje</mat-radio-button>
+      <mat-radio-button value="4">Consulta</mat-radio-button>
+    </mat-radio-group>
+    <br />
+
+    <mat-form-field style="width: 300px" appearance="outline">
+      <mat-label>Descripcion: </mat-label>
+      <textarea matInput></textarea>
     </mat-form-field>
     <br>
-    <mat-form-field appearance="fill" fxFlex>
-      <mat-label>Correo electrónico</mat-label>
-      <input matInput type="email" formControlName="email" required>
-    </mat-form-field>
-
-    <div fxLayout fxLayoutAlign="start center" fxFlex>
-      <label for="">Tipo de Mensaje:</label><br>
-      <mat-checkbox formControlName="type" value="consulta" fxFlex>Queja</mat-checkbox><br>
-      <mat-checkbox formControlName="type" value="consulta" fxFlex>Sugerencia</mat-checkbox><br>
-      <mat-checkbox formControlName="type" value="consulta" fxFlex>Mensaje</mat-checkbox><br>
-      <mat-checkbox formControlName="type" value="sugerencia" fxFlex>Información</mat-checkbox>
+    <button type="button" class="btn btn-info">Enviar</button>
+    <div class="image-container">
+      <img src="assets/cartadeamor.jpeg" alt="Placeholder Image" />
     </div>
-
-    <mat-form-field appearance="fill" fxFlex>
-      <mat-label>Mensaje</mat-label>
-      <textarea matInput formControlName="message" required></textarea>
-    </mat-form-field>
-    <br>
-    <button mat-raised-button color="primary" type="submit" fxFlex>Enviar</button>
   </form>
-</div>
-
-<div class="image-container">
-  <img src="../assets/img/taza.png" alt="Placeholder Image">
 </div>
