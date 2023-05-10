@@ -29,7 +29,7 @@
             <!-- <button onclick="uno()" [disabled]="habilitar" class="bot">Agregar</button> -->
         </div>
         <ng-template #noDisponible class="dispo">No disponible <br>
-            <p>La pelicula estar disponible el {{devD + 1}}-{{devM}}-{{devA}}</p>
+            <p>La pelicula estar disponible el {{devD}}-{{devM}}-{{devA}}</p>  <!-- aqui era devD+1, le quite el +1 -->
         </ng-template>
         <router-outlet></router-outlet>
     </div> 

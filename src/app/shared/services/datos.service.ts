@@ -39,8 +39,8 @@ export class DatosService {
     },
     {
       nombre: 'José Gerardo Castro Benítez',
-      img1: 'assets/Beeg_Sana.JPG',
-      img2: '',
+      img1: 'assets/gerardo1.jpg',
+      img2: 'assets/Beeg_Sana.jpg',
       resume: 'Me gusta mimir',
       linkF: 'https://www.facebook.com/jose.casttrob',
       linkI: 'https://www.instagram.com/is_it_me_you.re_looking_for/',

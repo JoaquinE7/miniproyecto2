@@ -92,6 +92,22 @@ export class MovieDetailsComponent {
   agregar(): void {
     this.lista = JSON.parse(localStorage.getItem('reservas') || '[]');
     this.runSucces();
+
+    if (this.mes === 2 && this.dia === 29 || this.dia === 28){
+      this.dia = 1
+      this.mes = this.mes + 1
+    }else if(this.dia + 1 > 30 && this.mes + 1 > 12 ) {
+      this.dia = 1
+      this.mes = 1
+      this.anio = this.anio + 1
+    }else if(this.dia + 1 > 30){
+      this.dia = 1
+      this.mes = this.mes + 1
+    }
+
+    
+
+    
     this.res = {
       peli: this.movie.original_title,
       diaD: this.dia,
