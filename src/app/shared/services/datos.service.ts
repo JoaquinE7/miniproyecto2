@@ -6,44 +6,44 @@ import { Injectable } from '@angular/core';
 export class DatosService {
   public datos: jsjsjs[] = [
     {
-      nombre: 'Joaquin Miguel Esquivel Meza',
-      img1: '',
+      nombre: 'Joaquín Miguel Esquivel Meza',
+      img1: 'assets/joaquin1.jpg',
       img2: '',
-      resume: '',
-      linkF: '',
-      linkI: '',
+      resume: 'En conjunto con mis amigos realizamos este proyecto escolar sobre una página de reservaciones',
+      linkF: 'https://www.facebook.com/joaquin.esquivel.399488',
+      linkI: 'https://www.instagram.com/joaquin.esquivel02/',
     },
     {
-      nombre: 'Emmanuel Caleb Perez Estrada',
-      img1: '',
-      img2: '',
-      resume: '',
-      linkF: '',
-      linkI: '',
+      nombre: 'Emmanuel Caleb Pérez Estrada',
+      img1: 'assets/caleb1.jpeg',
+      img2: 'assets/caleb2.jpeg',
+      resume: 'Mi nombre es Caleb. Soy estudiante de Ia carrera ISC en la UAA, me gusta jugar videojuegos',
+      linkF: 'https://www.facebook.com/profile.php?id=100010317669917',
+      linkI: 'https://www.instagram.com/p/BokizJ6lT0Q/?utm_source=ig_web_button_share_sheet',
     },
     {
-      nombre: 'Ethienne Alejandro Lopez Olvera',
-      img1: '',
+      nombre: 'Ethienne Alejandro López Olvera', 
+      img1: 'assets/ethienne1.jpeg',
       img2: '',
-      resume: '',
-      linkF: '',
-      linkI: '',
+      resume: 'Nací, crecí, aun no me reproduzco y no he muerto.',
+      linkF: 'https://www.facebook.com/ethienne.lopez.7/',
+      linkI: 'https://www.instagram.com/ethienne_lopez/',
     },
     {
       nombre: 'Frank Elgar Delgado Araiza',
-      img1: '',
-      img2: '',
-      resume: '',
-      linkF: '',
-      linkI: '',
+      img1: 'assets/frank1.jpeg',
+      img2: 'assets/frank2.jpeg',
+      resume: 'Sin mente para pensar, sin voluntad para romper, nacido de dios y del vacio...',
+      linkF: 'https://www.facebook.com/Frank.E.Delgado.Araiza',
+      linkI: 'https://www.instagram.com/frank.deaf/',
     },
     {
-      nombre: 'Jose Gerardo Castro Benitez',
-      img1: '',
+      nombre: 'José Gerardo Castro Benítez',
+      img1: 'assets/Beeg_Sana.JPG',
       img2: '',
       resume: 'Me gusta mimir',
-      linkF: '',
-      linkI: '',
+      linkF: 'https://www.facebook.com/jose.casttrob',
+      linkI: 'https://www.instagram.com/is_it_me_you.re_looking_for/',
     },
   ];
 
@@ -60,3 +60,4 @@ export interface jsjsjs {
   linkF: string;
   linkI: string;
 }
+

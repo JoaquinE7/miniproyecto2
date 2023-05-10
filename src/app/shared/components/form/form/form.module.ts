@@ -6,6 +6,8 @@ import {MatNativeDateModule} from '@angular/material/core';
 import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
+import { MatCheckboxModule } from '@angular/material/checkbox';
+import {MatRadioModule} from '@angular/material/radio';
 
 @NgModule({
   declarations: [
@@ -17,7 +19,10 @@ import { MatInputModule } from '@angular/material/input';
     ReactiveFormsModule,
     MatNativeDateModule,
     MatSlideToggleModule,
-    MatInputModule
+    MatInputModule,
+    MatCheckboxModule,
+    MatFormFieldModule,
+    MatRadioModule
   ],
   exports:[FormComponent]
 })

@@ -5,7 +5,7 @@
 
 <br>
 
-<table class="table" >
+<table class="table balto" >
     <thead>
       <tr>
         <th scope="col">Pelicula</th>
@@ -15,7 +15,7 @@
         <th scope="col">Puntuacion</th>
       </tr>
     </thead>
-    <tbody *ngFor="let i of lista">
+    <tbody class="balto" *ngFor="let i of lista">
       <tr>
         <th scope="row">{{i.peli}}</th>
         <td><img height="150px" src="https://www.themoviedb.org/t/p/w300_and_h450_bestv2{{i.poster}}" alt=""></td>
@@ -25,3 +25,5 @@
       </tr>
     </tbody>
   </table>
+
+ 

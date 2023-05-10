@@ -7,5 +7,13 @@ import { Component } from '@angular/core';
 })
 export class HomeComponent {
   video:string = '53OkQk2sdTc';
+  falg:boolean=false;
+
+  changeFlag(newItem: string){
+    setTimeout(() => {
+      this.falg=!this.falg;
+    }, 3000);
+    
+  }
 
 }

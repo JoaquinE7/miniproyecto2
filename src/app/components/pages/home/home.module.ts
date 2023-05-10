@@ -4,6 +4,7 @@ import { CommonModule } from '@angular/common';
 import { HomeRoutingModule } from './home-routing.module';
 import { HomeComponent } from './home.component';
 import { DoomPipePipe } from 'src/app/shared/pipes/doom-pipe.pipe';
+import { AddModule } from 'src/app/shared/components/add/add/add.module';
 
 
 @NgModule({
@@ -13,7 +14,8 @@ import { DoomPipePipe } from 'src/app/shared/pipes/doom-pipe.pipe';
   ],
   imports: [
     CommonModule,
-    HomeRoutingModule
+    HomeRoutingModule,
+    AddModule
   ]
 })
 export class HomeModule { }

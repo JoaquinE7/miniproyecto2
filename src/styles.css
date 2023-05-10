@@ -1,6 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
 @import '~bootstrap/dist/css/bootstrap.min.css';
 html, body { height: 100%; }
+*{
+  font-family: 'Bruno Ace SC', cursive;
+}
 body { margin: 0; font-family: 'Bruno Ace SC', cursive;; background-color: #2c3e50; }
 /*
 body {
@@ -9,4 +12,9 @@ body {
     font-weight: bold;
     font-size: 24px;
   }*/
-  
+
+  .borde{
+    
+    margin-left: 4%;
+    margin-right: 4%;
+  }

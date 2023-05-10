@@ -7,7 +7,11 @@
 .felipe{
     height: 100%;
     width: 100%;
-    margin: 0;
+    margin-top: 10%;
+    margin-bottom: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+
     padding: 0;
     display: grid;
     font-family: 'Bruno Ace SC', cursive;
@@ -21,6 +25,7 @@
                          "directores directores img"
                          "dispo dispo img"
                          "cal bot img ";
+    border-radius: 10px;
                         
 }
 .dispo{
@@ -32,6 +37,9 @@
 }
 .cal{
     grid-area: cal;
+    margin-right: 35%;
+    margin-left:35%;
+    
 }
 .bot{
     grid-area: bot;
@@ -43,6 +51,9 @@
 }
 .resumen{
     grid-area: resumen;
+    margin-right: 5%;
+    margin-left:5%;
+   
 }.title{
     grid-area: title;
     display: flex;

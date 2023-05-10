@@ -69,17 +69,20 @@ export class MovieDetailsComponent {
 
     if (this.anio > this.actual.getFullYear()) {
       this.habilitar = false;
+      this.runDate()
     } else if (
       this.anio == this.actual.getFullYear() &&
       this.mes > this.actual.getMonth() + 1
     ) {
       this.habilitar = false;
+      this.runDate()
     } else if (
       this.anio == this.actual.getFullYear() &&
       this.mes == this.actual.getMonth() + 1 &&
       this.dia >= this.actual.getDate()
     ) {
       this.habilitar = false;
+      this.runDate()
     }
     if(this.habilitar){
       this.runError()
@@ -110,5 +113,9 @@ export class MovieDetailsComponent {
 
   runError(): void {
     alertify.error('Seleccione una fecha no pasada');
+  }
+
+  runDate():void{
+    alertify.success("Fecha valida")
   }
 }

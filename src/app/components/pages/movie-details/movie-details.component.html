@@ -23,9 +23,9 @@
             <br>
             Esta disponible
             <br>
-            <input type="date" [(ngModel)]="rsr" (change)="verFecha()" class="custom-select mr-sm-2 cal">
+            <input type="date" [(ngModel)]="rsr" (change)="verFecha()" class="btn-dark cal">
             <br>
-            <button (click)="agregar()" [disabled]="habilitar" class="btn btn-dark bot">Agregar</button>
+            <button (click)="agregar()" [disabled]="habilitar" class="btn btn-info bot">Agregar</button>
             <!-- <button onclick="uno()" [disabled]="habilitar" class="bot">Agregar</button> -->
         </div>
         <ng-template #noDisponible class="dispo">No disponible <br>
